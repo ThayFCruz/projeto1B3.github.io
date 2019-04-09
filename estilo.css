@@ -1,0 +1,585 @@
+@media (max-width: 640px){
+	body{
+		margin: 0px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	/* HEADER */
+	.header{
+		margin: 0 auto;
+		max-width: 640px;
+		height: 64.69px;
+	}
+
+	.headerRow{
+		width: 100%;
+		float: left;
+	}
+
+	.traces{
+		width: 22px;
+		margin-left: 18px;
+		margin-top: 25px;
+		float: left;
+		box-shadow: 0 0 0 1px #00b0eb, 
+			0 7px 0 1px #00b0eb, 
+			0 14px 0 1px #00b0eb;
+	}
+	
+	.logo{
+		height: 4rem;
+		margin-left: 16px;
+		margin-right: 70px;
+		margin-bottom: 0px;
+		padding-right: 17px;
+		padding-top: 3px;
+		font-size: 16px;
+		float: left;
+	}
+	
+	.logo img {
+		max-width: 85px;
+		height: auto;
+	}
+
+	.menuTopOptions{
+		display: none;
+	}
+
+	.search{
+		line-height: 71px;
+		margin-top: 5px;
+		width: 40px;
+		float: right;
+		margin-right: 13px;
+	}
+	
+	.search img {
+		max-width: 28px;
+		height: auto;
+	}
+
+	.flagArrow{
+		line-height: 71px;
+		width: 61px;
+		float: right;
+	}
+
+	.flag{
+		padding-top: 3px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	.flag img{
+		max-width: 23px;
+		height: auto;
+	}
+	
+	.arrow{
+		float: right;
+		margin-top: -5px;
+		margin-right: 13px;
+	}
+	/* ---------------- */
+
+
+	/* GRADIENTE AZUL */
+	.blueGradient{
+		background: linear-gradient(45deg, #003475 34%,#00b0e6 64%);
+		box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.4) inset;
+		height: 299.667px;
+	}
+
+	.blueGradientRow{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 640px;
+	}
+
+	.blueGradientData{
+		max-width: 93%;
+		margin: 0 auto;
+	}
+
+	#blueGradientCell1{
+		padding-top: 0px;
+	}
+	
+	.blueGradientCell{
+		width: 100%;
+		float: left;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+		padding-top: 7px;
+	}
+
+	.blueGradientCellTitle{
+		width: 100%;
+		font-size: 0.813em;
+		color: #6eaed3;
+		float: left;
+		padding-top: 6px;
+		margin-bottom: 5px;
+	}
+
+	.blueGradientCellValue1{
+		width: 105px;
+		line-height: 0.60;
+		padding-top: 9px;
+		margin-bottom: 17px;
+		font-size: 1.250em;
+		color: rgba(255, 255, 255, 0.8);
+		float: left;
+	}
+
+	#blueGradientCellValue1Green{
+		color: #00eba9;
+	}
+
+	.blueGradientCellValue2{
+		font-size: 0.875em;
+		color: rgba(255, 255, 255, 0.8);
+		float: left;
+		padding-top: 8px;
+	}
+
+	.blueGradientButton{
+		float: left;
+		width: 93%;
+		margin-left: 3.5%;
+		margin-top: 13px;
+		
+		padding-top: 13.132px;
+		padding-bottom: 13.132px;
+		
+		border-width: 1px;
+		border-style: solid;
+		border-color: #59ccef;
+		font-size: 0.938rem;
+		text-align: center;
+		color: #FFFFFF;	
+		background-color: #003475;
+	}
+	
+	.acessButton{
+		float: left;
+		width: 100%;
+		height: 33px;
+		padding-top: 13px;
+		background-color: #00b0e6; 
+		margin-top: 25px;
+		font-size: 0.938rem;
+		text-align: center;
+		color: white;
+		position:relative;		
+	}
+	
+	.buttonArrow{
+		position: absolute;
+		right: 13px;
+		top: 7px;
+		width: 30px;
+	}
+	
+	.buttonArrow img{
+		width: 100%;
+		height: auto;
+	}
+	
+	/* ---------------- */
+
+	/* IMAGEM */
+	.imageCenter{
+		display: none;
+	}
+	/* ---------------- */
+
+	/* NOTÍCIAS E LISTA */
+	.items{
+		margin: 0 auto;
+		max-width: 1280px;
+	}
+
+	.itemsRow{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.itemsBlock1{
+		width: 100%;
+		float: left;
+	}
+	
+	.itemsBlock2{
+		display: none;
+	}
+
+	.itemsBlockTitle{
+		padding-top: 25px;
+	}
+
+	.itemsBlockTitleText{
+		color: #004685;
+		font-size: 1.250em;
+		border-bottom: 2px solid #faa74a;
+		padding-bottom: 9px;
+	}
+
+	#notice1{
+		padding-top: 29px;
+	}
+	
+	.notice{
+		padding-top: 13px;
+		padding-bottom: 14px;
+		padding-left: 9px;
+		padding-right: 20px;
+		border-bottom: 1px solid #dee1e1;
+	}
+
+	.noticeDate{
+		padding-top: 7px;
+		padding-bottom: 5.797px;
+		line-height: 1.3rem;
+		color: #faa74a;
+		font-size: 0.750em;
+	}
+
+	.noticeDescription{
+		line-height: 1.5;
+		color: #5c5f60;
+		font-size: 0.875em;
+	}
+	/* ---------------- */
+	
+	.rolamento{
+		height: 1000px;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 641px){
+
+	body{
+		margin: 0px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	/* HEADER */
+	.header{
+		margin: 0 auto;
+		max-width: 1280px;
+		height: 74px;
+	}
+
+	.headerRow{
+		width: 100%;
+		float: left;
+	}
+
+	.traces{
+		display: none;
+	}
+
+	.logo{
+		height: 4rem;
+		margin-left: 16px;
+		margin-right: 70px;
+		margin-bottom: 0px;
+		padding-right: 17px;
+		font-size: 16px;
+		float: left;
+	}
+
+	.menuTopOptions{
+		float: left;
+		line-height: 71px;
+		font-size: 0.87rem;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: #003475;
+	}
+
+	.search{
+		line-height: 71px;
+		margin-top: 15px;
+		width: 61px;
+		height: 74px;
+		float: right;
+		margin-right: 6px;
+	}
+
+	.flagArrow{
+		line-height: 71px;
+		width: 61px;
+		height: 74px;
+		float: right;
+	}
+
+	.flag{
+		padding-top: 11px;
+		padding-left: 1px;
+		padding-right: 5px;
+		float: left;
+	}
+
+	.arrow{
+		float: left;
+		padding-left: 2px;
+	}
+	/* ---------------- */
+
+
+	/* GRADIENTE AZUL */
+	.blueGradient{
+		background: linear-gradient(45deg, #003475 34%,#00b0e6 64%);
+		box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.4) inset;
+		height: 81.25px;
+	}
+
+	.blueGradientRow{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1280px;
+	}
+
+	.blueGradientData{
+		width: 65%;
+	}
+
+	#blueGradientCell1{
+		padding-left: 15px;
+	}
+
+	.blueGradientCell{
+		width: 25%;
+		padding-top: 2px;
+		padding-left: 30px;
+		float: left;
+		border-right: 1px solid rgba(255, 255, 255, 0.25);
+	}
+
+	.blueGradientCellTitle{
+		width: 100%;
+		font-size: 0.813em;
+		color: #6eaed3;
+		margin-bottom: 3px;
+	}
+
+	.blueGradientCellValue1{
+		width: 50%;
+		float: left;
+		line-height: 1.5;
+		padding-top: 2px;
+		font-size: 1.250em;
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	#blueGradientCellValue1Green{
+		color: #00eba9;
+	}
+
+	.blueGradientCellValue2{
+		width: 49%;
+		float: left;
+		padding-top: 9px;
+		padding-left: 2px;
+		margin-bottom: 10px;
+		font-size: 0.875em;
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	.blueGradientButton{
+		float: right;
+		width: 290px;
+		margin-top: 3px;
+		margin-right: 15px;
+		padding-top: 13.132px;
+		padding-bottom: 13.132px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #59ccef;
+		font-size: 0.938rem;
+		text-align: center;
+		color: #FFFFFF;	
+	}
+	/* ---------------- */
+
+	/* IMAGEM */
+	.imageCenter{
+		background-image: url("./imgs/Ibovespa_100mil_Banner.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 300px;
+	}
+
+	.imageCenterText{
+		margin: 0 auto;
+		max-width: 1280px;
+		padding-left: 27px;
+	}
+
+	.imageCenterTextTitle{
+		width: 50%;
+		padding-top: 50px;
+		font-size: 2.188em;
+		line-height: 50px;
+		color: #FFF;
+		
+	}
+
+	.imageCenterTextDescription{
+		width: 50%;
+		padding-top: 15px;
+		padding-bottom: 22px;
+		color: #FFF;
+	}
+
+	.imageCenterTextButton{
+		width: 153.34px;
+		background-color: #00b0e6;
+		padding-top: 13.132px;
+		padding-bottom: 13.132px;
+		margin-left: 2px;
+		text-align: center;
+		font-size: 0.938rem;
+		color: #FFF;
+	}
+	/* ---------------- */
+
+	/* ACESSO RAPIDO */
+	.acessButton{
+		display: none;
+	}
+	
+	.buttonArrow{
+		display: none;
+	}
+	
+	/* ---------------- */
+	
+	/* NOTÍCIAS E LISTA */
+	.items{
+		margin: 0 auto;
+		max-width: 1280px;
+	}
+
+	.itemsRow{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.itemsBlock1{
+		width: 50%;
+		float: left;
+	}
+	
+	.itemsBlock2{
+		width: 48.7%;
+		padding-left: 1.3%;
+		float: left;
+	}
+	
+	.itemsBlock{
+		width: 50%;
+		float: left;
+	}
+
+	.itemsBlockTitle{
+		padding-top: 33px;
+	}
+
+	.itemsBlockTitleText{
+		color: #004685;
+		font-size: 1.250em;
+		border-bottom: 2px solid #faa74a;
+		padding-bottom: 9px;
+	}
+
+	#notice1{
+		padding-top: 32px;
+	}
+	
+	.notice{
+		padding-top: 14px;
+		padding-bottom: 14px;
+		padding-left: 9px;
+		padding-right: 20px;
+		border-bottom: 1px solid #dee1e1;
+	}
+
+	.noticeDate{
+		padding-top: 5.797px;
+		padding-bottom: 5.797px;
+		line-height: 1.3rem;
+		color: #faa74a;
+		font-size: 0.750em;
+	}
+
+	.noticeDescription{
+		line-height: 1.5;
+		color: #5c5f60;
+		font-size: 0.875em;
+	}
+
+	#listItem1
+	{
+		padding-top: 10px;
+		padding-bottom: 8px;
+	}
+
+	.listItem{
+		border-bottom: 1px solid #dee1e1;
+		min-height: 60px;	
+		margin-right: 15px;
+	}
+
+	#listIcon1{
+		padding-top: 27px;
+	}
+
+	.listIcon{
+		width: 25px;
+		height: 25px;
+		padding-top: 18px;
+		padding-left: 15px;
+		padding-right: 19px;
+		float: left;
+	}
+
+	.listIcon img {
+		max-width: 25px;
+		height: auto;
+	}
+
+	#listDescription1{
+		padding-top: 29px;
+	}
+
+	.listDescription{
+		padding-top: 20px;
+		color: #5c5f60;
+		font-size: 14px;
+		line-height: 1.6;
+		
+	}
+
+	.card{
+		width: 288px;
+		height: 160px;
+		margin-left: 15px;
+		margin-top: 48px;
+		border-radius: 5px;
+		border: solid 1px #e5e5e5;
+		box-shadow: 0 1px 4px 0 transparent;
+		background-image: url("./imgs/CEI.jpg");
+		background-position: 50%;
+	}
+	/* ---------------- */
+	
+	.rolamento{
+		height: 1000px;
+		float: left;
+	}
+}
